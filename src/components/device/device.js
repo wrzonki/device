@@ -17,6 +17,7 @@ export default props => {
           <div className={`${s.curve} ${s.curve_left}`}></div>
           <div className={`${s.curve} ${s.curve_right}`}></div>
           <div className={`${s.contents} ${screen ? s.hide : s.show}`}>
+            <h3>12:03</h3>
           </div>
         </div>
       </div>
