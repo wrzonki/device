@@ -123,9 +123,8 @@ $trans: all 2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   height: 97%;
   top: 1%;
   z-index: -98;
-  background: #FC466B;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(131,58,180);
+  background: linear-gradient(9deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   transition: all .2s ease-in .2s;
   h3 {
     text-align: center;
